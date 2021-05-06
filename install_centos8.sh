@@ -116,7 +116,7 @@ echo "Internal ip = ${IP4}. Exteranl sub for ip6 = ${IP6}"
 echo "CU. MUON LAY BAO NHIEU PROXY A."
 read COUNT
 
-FIRST_PORT=3000
+FIRST_PORT=5000
 LAST_PORT=$(($FIRST_PORT + $COUNT))
 
 gen_data >$WORKDIR/data.txt
